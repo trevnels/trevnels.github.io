@@ -1467,17 +1467,17 @@ img {
 .accent-blue .menu-item a:not(.button):hover,
 .accent-blue .view-all-button,
 .accent-blue #colophon a:not(.button):hover {
-  color: #0077ff; }
+  color: #00adee; }
 .accent-blue .form-group .animate-border,
 .accent-blue .site-title a {
-  background: #0077ff; }
+  background: #00adee; }
 .accent-blue button,
 .accent-blue input[type="submit"],
 .accent-blue input[type="button"],
 .accent-blue input[type="reset"],
 .accent-blue .button {
-  border-color: #0077ff;
-  color: #0077ff; }
+  border-color: #00adee;
+  color: #00adee; }
   .accent-blue button:hover, .accent-blue button:focus, .accent-blue button:active,
   .accent-blue input[type="submit"]:hover,
   .accent-blue input[type="submit"]:focus,
@@ -1491,7 +1491,7 @@ img {
   .accent-blue .button:hover,
   .accent-blue .button:focus,
   .accent-blue .button:active {
-    color: #0077ff; }
+    color: #00adee; }
 .accent-blue a.button:before,
 .accent-blue a.button:after,
 .accent-blue button.button:before,
@@ -1499,7 +1499,7 @@ img {
 .accent-blue .view-all-button:before,
 .accent-blue .view-all-button:after,
 .accent-blue .line-top:before {
-  border-color: #0077ff; }
+  border-color: #00adee; }
 
 .accent-violet a,
 .accent-violet blockquote:before,

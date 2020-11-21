@@ -7,9 +7,9 @@ image: images/overthrow.webp
 layout: project
 ---
 
->Under strict rules, limited time and resources, teams of [high-school] students are challenged to raise funds, design a team "brand," hone teamwork skills, and build and program industrial-size robots to play a difficult field game against like-minded competitors. It’s as close to real-world engineering as a student can get. <cite>-- [firstinspires.org](https://www.firstinspires.org/robotics/frc)</cite>
+>Under strict rules, limited time and resources, teams of [high school] students are challenged to raise funds, design a team "brand," hone teamwork skills, and build and program industrial-size robots to play a difficult field game against like-minded competitors. It’s as close to real-world engineering as a student can get. <cite>-- [firstinspires.org](https://www.firstinspires.org/robotics/frc)</cite>
 
-Overthrow was FIRST Robotics Competition team 6502's robot for the 2020 season. As former software lead on the team, it was my responsibility to plan, develop, and test substantial amounts of the code running on the robot. Over the 2 month build season, I developed many features not posessed by most other North Carolina teams, mainly focusing on automation.
+Overthrow was FIRST Robotics Competition team 6502's robot for the 2020 season. As former software lead on the team, it was my responsibility to plan, develop, and test substantial amounts of the code running on the robot. Over the 2 month build season, I developed many features not possessed by most other North Carolina teams, mainly focusing on automation.
 
 {% include youtube.html id="V2W0Gz72hI4" %}
 *A video showing Overthrow in action.*
