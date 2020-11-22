@@ -2,8 +2,8 @@
 title: Overthrow
 subtitle: A 2020 FIRST Robotics Competition robot.
 date: '2019-05-10'
-thumb_image: images/overthrow.webp
-image: images/overthrow.webp
+thumb_image: images/overthrow.jpg
+image: images/overthrow.jpg
 layout: project
 ---
 
@@ -21,5 +21,5 @@ Notably, our turret could automatically aim and compute the trajectory and neede
 
 We also had one of the best 15-second autonomous routines in the state. We could fire three balls, back up to pick up 3 more, and return to fire those three as well. The robot used advanced algorithms, rotational encoders, and a gyroscope while driving along these paths so that if it were bumped or otherwise left the path, it could quickly steer itself back on track.
 
-![Bump demo](/images/bumptest.webp){:width="100%"}
+![Bump demo](/images/bumptest.png){:width="100%"}
 *A unit test output showing path reacquisition after a simulated collision.*
