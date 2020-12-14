@@ -1,7 +1,7 @@
 ---
 title: TrueFRC
 subtitle: FIRST Robotics Competition statistical analysis
-date: '2019-04-30'
+date: '2019-01-26'
 thumb_image: images/truefrc_thumbnail.png
 image: images/truefrc.jpg
 layout: project

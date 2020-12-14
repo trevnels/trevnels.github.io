@@ -12,6 +12,6 @@ sections:
     layout_style: mosaic
     title: Portfolio
     subtitle: ''
-    projects_number: 6
+    projects_number: 8
 layout: advanced
 ---
