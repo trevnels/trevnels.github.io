@@ -1,6 +1,6 @@
 ---
 title: CTF Site
-subtitle: Computer Science challenge interface and grader
+subtitle: April-June 2018
 date: '2019-01-28'
 thumb_image: images/ctf.png
 image: images/ctf.png

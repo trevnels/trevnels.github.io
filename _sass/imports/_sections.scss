@@ -7,7 +7,10 @@
 
 .block:first-child,
 .page-header + .block {
-  padding-top: 0;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background: url("/images/present.jpg") no-repeat center 65% fixed;
+  background-size: cover;
 }
 
 .block-image {
@@ -106,6 +109,11 @@
 
   .block-title {
     font-size: 2.44444em;
+    color: white;
+  }
+
+  .block-content p {
+    color: white;
   }
 }
 

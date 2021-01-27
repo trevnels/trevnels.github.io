@@ -1,7 +1,7 @@
 ---
 title: Minecraft Computer
-subtitle: '"Minecraft is for kids!" Yeah, right.'
-date: '2019-04-10'
+subtitle: July 2019
+date: '2019-04-30'
 thumb_image: images/computer.png
 image: images/computer_labeled.png
 layout: project

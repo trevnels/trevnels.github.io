@@ -1,6 +1,6 @@
 ---
 title: Raincheck
-subtitle: Simple weather webapp
+subtitle: July 2020
 date: '2019-05-09'
 thumb_image: images/raincheck.png
 image: images/raincheck.png

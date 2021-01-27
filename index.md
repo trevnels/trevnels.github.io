@@ -6,12 +6,12 @@ sections:
     type: section_hero
     title: 'Hi, I''m Trevor.'
     content: >-
-      This is a small list of projects I've worked on.
+      I'm a freshman intending to study Computer Science at North Carolina State University.
   - section_id: latest-projects
     type: section_portfolio
     layout_style: mosaic
     title: Portfolio
-    subtitle: ''
+    subtitle: 'This is a small list of projects I''ve worked on.'
     projects_number: 8
 layout: advanced
 ---

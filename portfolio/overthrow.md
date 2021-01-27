@@ -1,6 +1,6 @@
 ---
 title: Overthrow
-subtitle: A 2020 FIRST Robotics Competition robot.
+subtitle: January-March 2020
 date: '2019-05-10'
 thumb_image: images/overthrow.jpg
 image: images/overthrow.jpg

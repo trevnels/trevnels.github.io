@@ -1,6 +1,6 @@
 ---
 title: 3D Printer
-subtitle: Modified Creality Ender 3
+subtitle: July 2019
 date: '2019-01-27'
 thumb_image: images/printer.png
 image: images/printer.png

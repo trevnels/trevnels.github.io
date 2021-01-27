@@ -1,7 +1,7 @@
 ---
 title: PC Build
-subtitle: Custom-built PC for gaming, software development, video editing, and more.
-date: '2019-04-30'
+subtitle: November 2020
+date: '2019-01-26'
 thumb_image: images/pc.jpg
 image: images/pc.jpg
 layout: project
@@ -11,7 +11,7 @@ I built this PC in the fall of 2020 to replace my previous 5-year-old machine. I
 
 ## Components
  - AMD Ryzen 7 5800X
- - NVIDIA GeForce RTX 3070 (Using my old GTX 970 at the moment due to shortages)
+ - NVIDIA GeForce RTX 3070
  - 32 GB 3600MHz G.SKILL RAM (2x16)
  - 3x 1 TB Samsung SSDs (1 is PCIe Gen4)
  - 1x 500 GB Samsung SSD 
