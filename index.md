@@ -6,7 +6,7 @@ sections:
     type: section_hero
     title: 'Hi, I''m Trevor.'
     content: >-
-      I'm a sophomore studing Computer Science at North Carolina State University.
+      I'm a sophomore studying Computer Science at North Carolina State University.
   - section_id: latest-projects
     type: section_portfolio
     layout_style: mosaic
