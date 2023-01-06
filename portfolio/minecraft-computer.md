@@ -1,7 +1,7 @@
 ---
 title: Minecraft Computer
 subtitle: July 2019
-date: '2019-04-30'
+date: '2019-04-09'
 thumb_image: images/computer.png
 image: images/computer_labeled.png
 layout: project
