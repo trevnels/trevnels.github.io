@@ -1,26 +1,23 @@
 {% extends "base.html" %}
 
 {% block meta_content %}
-  <title>{{page.title}} &ndash; Trevor Nelson</title>
+<title>{{page.title}} &ndash; Trevor Nelson</title>
 {% endblock meta_content %}
 
 {%block header %}
 <header>
-  <a href="/"><< Home</a>
+  <a href="/">
+    << Home</a>
 </header>
 {%endblock%}
 
 {% block content %}
-
-
-
-
 <div class="prose prose-quoteless prose-gray prose-lg dark:prose-invert mx-auto max-w-prose">
 
   <h1 class="text-center mb-0">
     {{ page.title }}
   </h1>
-  
+
   <p class="text-center mt-0">
     {% if page.date %}{{ page.date | date(format="%B %Y") }}{% endif %}
   </p>
@@ -28,22 +25,18 @@
   <p class="text-center mb-2 leading-tight italic">
     {{ page.description | safe }}
   </p>
-  
+
   <div class="select-none flex flex-wrap justify-center gap-1 group">
     {% if page.taxonomies is containing('tags') %}
-      {% for tag in page.taxonomies['tags'] %}
-        <div class="inline-block bg-gray-500 hover:bg-gray-400 transition-colors text-white py-0 px-2 leading-normal select-none">{{ tag }}</div>
+    {% for tag in page.taxonomies['tags'] %}
+    <div
+      class="inline-block bg-gray-500 hover:bg-gray-400 transition-colors text-white py-0 px-2 leading-normal select-none">
+      {{ tag }}</div>
 
-        {% endfor %}
+    {% endfor %}
     {% endif %}
   </div>
 
-{{ page.content | safe }}
-<a class="group block fixed top-0 w-40 h-40 cursor-pointer" href="/" title="Go Home">
-  <div class="bg-gray-700 dark:bg-gray-300 w-1 h-full -translate-y-28 group-hover:-translate-y-4 group-active:translate-y-0 transition-transform"></div>
-  <span class="p-1 bg-gray-700 absolute bottom-0 left-3 pointer-events-none whitespace-nowrap tracking-tight text-sm font-mono -translate-y-28 group-hover:-translate-y-4 group-active:translate-y-0 transition-transform">
-    BACK HOME
-  </span>
-</a>
+  {{ page.content | safe }}
 </div>
 {% endblock content %}
