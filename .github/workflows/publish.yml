@@ -16,7 +16,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - name: Remove large source images
-        run: xargs -I{} rm -r "public/images/{}" < public/images/.publishignore
+        run: xargs -I{} rm -r "public/images/{}" < public/images/.publishignore && rm public/images/.publishignore
       - name: Fix permissions
         run: |
           chmod -c -R +rX "public/" | while read line; do
