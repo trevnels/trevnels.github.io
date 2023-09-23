@@ -1,0 +1,51 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "serve",
+            "dependsOn": [
+                "zola",
+                "tailwind"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "zola",
+            "type": "shell",
+            "command": "zola serve --open --drafts",
+            "problemMatcher": [],
+            "icon": {
+                "id": "markdown"
+            },
+            "presentation": {
+                "focus": false,
+                "panel": "dedicated",
+                "group": "serve"
+            }
+        },
+        {
+            "label": "tailwind",
+            "type": "shell",
+            "command": "tailwindcss -i styles/styles.css -o static/main.css -w --minify",
+            "icon": {
+                "id": "combine"
+            },
+            "presentation": {
+                "focus": false,
+                "panel": "dedicated",
+                "group": "serve"
+            }
+        },
+        {
+            "label": "convert-resume",
+            "type": "shell",
+            "options": {
+                "shell": {"args": ["-i"]}
+            },
+            "command": "cd /var/home/tn/Documents/resume; nix-shell --run \"make output/resume-redacted-transparent.png\"; cp output/resume-redacted-transparent.png ${cwd}/static/images/resume.png",
+            "problemMatcher": []
+        }
+    ]
+}

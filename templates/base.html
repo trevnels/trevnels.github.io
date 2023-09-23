@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% block meta_content %}
+    <title>Home - Trevor Nelson</title>
+  {% endblock meta_content %}
+
+  <link rel="stylesheet" href="{{ get_url(path="main.css") | safe }}" />
+  <link rel="stylesheet" href="https://www.nerdfonts.com/assets/css/webfont.css" />
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-800 text-gray-700 dark:text-gray-300 px-4">
+  <main>
+    {% include "nav.html" %}
+    <div class="container mx-auto mt-32">
+      {% block content %} {% endblock %}
+    </div>
+    <p class="text-center text-sm text-gray-700 dark:text-gray-300 opacity-50 select-none my-12">𝕥</p>
+  </main>
+</body>
+
+</html>

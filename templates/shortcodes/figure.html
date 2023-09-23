@@ -1,0 +1,10 @@
+<figure>
+    {% if img %}
+        {% set image = resize_image(path=body, width=1400, op="fit_width") %}
+        <img src="{{image.url}}" alt="{{caption}}" draggable="false" />
+    {% else %}
+        {{ body | markdown(inline=true) | safe }}
+    {% endif %}
+
+    <figcaption class="text-center mt-2 italic">{{ caption | safe }}</figcaption>
+</figure>

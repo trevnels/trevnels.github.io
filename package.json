@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "zola serve --drafts & tailwindcss -i styles/styles.css -o public/main.css -w --minify && wait",
+    "build": "zola build && tailwindcss -i styles/styles.css -o public/main.css --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@twilio-labs/languagetool-cli": "^1.5.0",
+    "tailwindcss": "^3.3.3"
+  }
+}
