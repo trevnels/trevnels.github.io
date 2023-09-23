@@ -1,0 +1,25 @@
+name: Build and publish site
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: sudo snap install --edge zola
+      - run: npm install
+      - run: npm run build
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX "public/" | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact
+        with:
+          path: public/
