@@ -15,6 +15,8 @@ jobs:
       - run: sudo snap install --edge zola
       - run: npm install
       - run: npm run build
+      - name: Remove large source images
+        run: xargs -I{} rm -r "public/images/{}" < public/images/.publishignore
       - name: Fix permissions
         run: |
           chmod -c -R +rX "public/" | while read line; do
@@ -24,3 +26,17 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: public/
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2

@@ -88,7 +88,7 @@ The design of this interface was primarily driven by complaints from scouts abou
 
 ### Data Analysis
 
-![Ossus Data Analysis](/images/ossus_data.gif)
+![Ossus Data Analysis](/videos/ossus_data.gif)
 _Weighing data from a 2019 event._
 
 The primary presentation of data in Ossus is via the table above. The left-hand weights menu is used to dynamically sort the table based on a variety of statistics determined by the game schema. This is not just a basic sort, however. Every statistic can be prioritized or penalized with a weight, sorting the table based on how well a team satisfies these weights. For example, I could sort the table by teams who are good at game piece A and game piece B, but A is preferred, and I do not want teams who do game piece C, all by adjusting a few sliders. All of these calculations are performed on the server using scout data recorded in MongoDB. Again, none of this is hard-coded, everything down to the table heading is procedurally generated.

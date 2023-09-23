@@ -21,7 +21,7 @@ Overthrow was FIRST Robotics Competition team 6502's robot for the 2020 season. 
 Notably, our turret could automatically aim and compute the trajectory and needed speed of balls as they were fired using computer vision, ensuring they would hit the goal without the driver needing to manually aim and potentially miss shots.
 
 {% figure(caption="A demonstration of the turret's automatic tracking capability.") %}
-<img src="/images/overthrow_turn.gif" draggable="false"/>
+<img src="/videos/overthrow_turn.gif" draggable="false"/>
 {% end %}
 
 {% aside(caption="Path following unit test output.", path="/images/bumptest.png") %}
@@ -30,5 +30,5 @@ We also had one of the best 15-second autonomous routines in the state. We could
 
 {% figure(caption="Physical end-to-end test of the 6-cell autonomous routine.  
 Notice that the turret hesitates before the last shot to correct its aim!") %}
-<video src="/images/overthrow_firing.webm" controls class="rounded-md shadow-lg"></video>
+<video src="/videos/overthrow_firing.webm" controls class="rounded-md shadow-lg"></video>
 {% end %}
