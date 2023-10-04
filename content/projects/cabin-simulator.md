@@ -26,7 +26,7 @@ The building aspects of the game were inspired by similar mechanics in games lik
 
 ## Procedural Terrain
 {% figure(img=true, caption="An example of Cabin Simulator's terrain.") %}
-/images/terrain2.jpg
+/images/terrain.jpg
 {% end %}
 Each Cabin Simulator world consisted of procedurally generated terrain based on a Perlin noise heightmap. Height data was then converted into the vertices and triangles of a mesh within the Unity scene. Textures were also applied based on height to improve the look of the terrain, and additional decorations like trees and rocks were placed randomly across the world.
 
