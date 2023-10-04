@@ -1,23 +1,23 @@
 +++
 title = "Overthrow"
-date = 2020-03-16
+date = 2020-02-16
 description = "Robot for the 2020 FIRST Robotics Competition season"
 [taxonomies]
 tags = ["robotics", "jvm"]
 [extra]
 featured = true
 thumbnail = "/images/overthrow.jpg"
-# thumbnail = "https://picsum.photos/200/300"
 +++
+{% figure(caption="A video showing Overthrow in action.") %}
+{{youtube(id="V2W0Gz72hI4")}}
+{% end %}
+
 >"Under strict rules and limited time and resources, teams of high school students are challenged to build industrial-size robots to play a difficult field game in alliance with other teams, while also fundraising to meet their goals, designing a team "brand," and advancing respect and appreciation for STEM within the local community."
 ><cite>[firstinspires.org](https://www.firstinspires.org/robotics/frc)</cite>
 
 Overthrow was FIRST Robotics Competition team 6502's robot for the 2020 season. As former software lead on the team, it was my responsibility to plan, develop, and test substantial amounts of the code running on the robot. Over the 2-month build season, I developed many features not possessed by most other North Carolina teams, mainly focusing on automation.
 
-## Autonomous Controls
-{% figure(caption="A video showing Overthrow in action.") %}
-{{youtube(id="V2W0Gz72hI4")}}
-{% end %}
+
 
 Notably, our turret could automatically aim and compute the trajectory and needed speed of balls as they were fired using computer vision, ensuring they would hit the goal without the driver needing to manually aim and potentially miss shots.
 
