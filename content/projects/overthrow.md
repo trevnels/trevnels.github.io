@@ -1,7 +1,7 @@
 +++
 title = "Overthrow"
 date = 2020-02-16
-description = "Robot for the 2020 FIRST Robotics Competition season"
+description = "Robot for the 2020 FIRST Robotics Competition season."
 [taxonomies]
 tags = ["robotics", "jvm"]
 [extra]

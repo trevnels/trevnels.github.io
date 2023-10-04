@@ -1,7 +1,7 @@
 +++
 title = "Ossus"
 date = 2019-05-16
-description = "FIRST Robotics Competition scouting platform"
+description = "FIRST Robotics Competition scouting platform."
 [taxonomies]
 tags = ["vue", "js", "robotics"]
 
@@ -9,7 +9,7 @@ tags = ["vue", "js", "robotics"]
 thumbnail = "/images/ossus_collection.png"
 featured = true
 +++
-{% figure(img=true, caption="The FRC alliance station before a 2019 playoff match. I'm in the center looking at the laptop.") %}
+{% figure(img=true, caption="The FRC alliance station before a 2019 playoff match. Photo by [Danny Levenson](http://dannylevenson.com/FIRST/index.html).") %}
 /images/scouting.jpg
 {% end %}
 

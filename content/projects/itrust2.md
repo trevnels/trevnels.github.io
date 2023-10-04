@@ -1,7 +1,7 @@
 +++
 title = "iTrust2"
 date = 2022-10-16
-description = "Full-stack healthcare portal project for CSC326"
+description = "Full-stack healthcare portal project for CSC326."
 [taxonomies]
 tags = ["js", "jvm"]
 [extra]
