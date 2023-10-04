@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - run: sudo snap install --edge zola
-      - run: npm install
+      - run: npm ci --omit=optional
       - run: npm run build
       - name: Remove large source images
         run: xargs -I{} rm -r "public/images/{}" < public/images/.publishignore && rm public/images/.publishignore

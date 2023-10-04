@@ -2,14 +2,19 @@
 module.exports = {
   content: [],
   theme: {
+    fontFamily: {
+      sans: ['Cantarell', 'system-ui', 'sans-serif'],
+    },
     extend: {
       typography: {
         DEFAULT: {
           css: {
-            'blockquote p:first-of-type::before': {content: 'none'},
-            'blockquote p:first-of-type::after': {content: 'none'}
+            'blockquote p:first-of-type::before': { content: 'none' },
+            'blockquote p:first-of-type::after': { content: 'none' },
+            '.prose code::before': { content: 'none' },
+            '.prose code::after': { content: 'none' }
           },
-         
+
         }
       }
     },

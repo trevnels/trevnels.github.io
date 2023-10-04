@@ -13,3 +13,7 @@ wasm
 webapp
 OpenWeatherMap
 Typst
+CodeMirror
+DARC
+Cantarell
+Mindstorms

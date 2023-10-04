@@ -1,9 +1,9 @@
-<div class="flex flex-col sm:flex-row w-full gap-4">
-    <div class="flex-auto flex-grow">
-        {{ body | markdown(inline=true) | safe }}
+<div class="flex flex-col sm:flex-row w-full gap-4 my-4">
+    <div class="flex-auto flex-grow [&>*:first-child]:mt-0 [&>*:last-child]:mb-0">
+        {{ body | markdown(inline=false) | safe }}
     </div>
     <aside class="flex-none sm:w-5/12">
-        <figure class="mt-0">
+        <figure class="my-0">
             {% set image = resize_image(path=path, width=800, op="fit_width") %}
             <img src="{{image.url}}" alt="{{caption}}" draggable="false" />
             {% if caption %}<figcaption class="text-center mt-2 italic">{{ caption }}</figcaption>{% endif %}

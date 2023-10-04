@@ -1,15 +1,15 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
 <div class="prose prose-gray dark:prose-invert prose-lg mx-auto max-w-prose">
-<h1 class="title">
-  {{ section.title }}
-</h1>
-<ul>
-  <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
-  {% for page in section.pages %}
-  <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+  <h1 class="text-center">
+    {{ section.title }}
+  </h1>
+  {{ section.content | safe }}
+
+  {% for year, posts in section.pages | group_by(attribute="year") %}
+  {{ macros::pagelist(posts=posts, title=year) }}
   {% endfor %}
-</ul>
 </div>
 {% endblock content %}

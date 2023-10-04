@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: Cantarell;
+    src: 
+        url("/fonts/Cantarell-Regular.woff2") format(woff2)
+        url("/fonts/Cantarell-Regular.woff") format(woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cantarell;
+    src: 
+        url("/fonts/Cantarell-Bold.woff2") format(woff2)
+        url("/fonts/Cantarell-Bold.woff") format(woff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Cantarell;
+    src: 
+        url("/fonts/Cantarell-ExtraBold.woff2") format(woff2)
+        url("/fonts/Cantarell-ExtraBold.woff") format(woff);
+    font-weight: 800;
+}
+
 cite {
     display: inline-block;
 }
@@ -11,7 +35,9 @@ cite::before {
     @apply ml-2
 }
 
-iframe, img, video {
+iframe,
+img,
+video {
     @apply w-full;
 }
 
@@ -25,10 +51,29 @@ iframe {
 .prose video:not(.not-prose) {
     @apply shadow-md rounded-md;
 }
+
 .prose blockquote p {
     @apply text-gray-500 dark:text-gray-400;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.prose a:not(.not-prose) {
+    @apply text-blue-200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     @apply select-none;
+}
+
+nav a {
+    font-weight: 600;
+    @apply inline-block rounded-md px-3 py-1 text-lg hover:bg-gray-300 dark:hover:bg-gray-700 select-none transition-colors mx-1;
+}
+
+nav a.active {
+    @apply bg-gray-700 dark:bg-gray-300 text-gray-50 dark:text-gray-800
 }
