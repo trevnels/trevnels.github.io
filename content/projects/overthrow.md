@@ -5,6 +5,7 @@ description = "Robot for the 2020 FIRST Robotics Competition season"
 [taxonomies]
 tags = ["robotics", "jvm"]
 [extra]
+featured = true
 thumbnail = "/images/overthrow.jpg"
 # thumbnail = "https://picsum.photos/200/300"
 +++

@@ -6,7 +6,9 @@
         <figure class="my-0">
             {% set image = resize_image(path=path, width=800, op="fit_width") %}
             <img src="{{image.url}}" alt="{{caption}}" draggable="false" />
-            {% if caption %}<figcaption class="text-center mt-2 italic">{{ caption }}</figcaption>{% endif %}
+            {% if caption %}
+            <figcaption class="text-center mt-2 italic">{{ caption }}</figcaption>
+            {% endif %}
         </figure>
     </aside>
 </div>
