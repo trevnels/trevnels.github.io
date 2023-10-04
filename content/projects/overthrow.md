@@ -31,5 +31,8 @@ We also had one of the best 15-second autonomous routines in the state. We could
 
 {% figure(caption="Physical end-to-end test of the 6-cell autonomous routine.  
 Notice that the turret hesitates before the last shot to correct its aim!") %}
-<video src="/videos/overthrow_firing.webm" controls class="rounded-md shadow-lg"></video>
+<video controls class="rounded-md shadow-lg">
+    <source src="/videos/overthrow_firing.webm" type="video/webm; codecs=vp9,vorbis">
+    <source src="/videos/overthrow_firing.mp4" type="video/mp4">
+</video>
 {% end %}
