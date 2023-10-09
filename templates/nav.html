@@ -1,8 +1,9 @@
 <nav class="text-center m-auto mt-6 select-none">
-    <a href="/" class="{% if current_path == '/' %}active{% endif %}"><span>Home</span></a>
-    <a href="/about" class="{% if current_path == '/about/' %}active{% endif %}"><span>About</span></a>
-    <a href="/projects" class="{% if current_path == '/projects/' %}active{% endif %}"><span>Projects</span></a>
-    <a href="/resume" class="{% if current_path == '/resume/' %}active{% endif %}"><span>Résumé</span></a>
+    {{ macros::item(path="/", name="Home") }}
+    {{ macros::item(path="/about/", name="About") }}
+    {{ macros::item(path="/projects/", name="Projects") }}
+    {# {{ macros::item(path="/blog/", name="Blog") }} #}
+    {{ macros::item(path="/resume/", name="Résumé") }}
     <a href="https://github.com/trevnels/" target="_blank"><i
             class="nf nf-md-github align-baseline -translate-y-[2px] inline-block"></i></a>
     <a href="https://www.linkedin.com/in/trevor-nelson-a730411a0/" target="_blank"><i

@@ -6,6 +6,7 @@ description = "A multiplayer sandbox game made in Unity."
 tags = ["gamedev"]
 [extra]
 thumbnail = "/images/trucks.png"
+featured = true
 +++
 
 Cabin Simulator is a multiplayer sandbox building game I made in the Unity game engine. The core gameplay loop is very simple - cut down trees to get wood, build something out of it, and repeat. 

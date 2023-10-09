@@ -1,12 +1,14 @@
 +++
 title = "About"
-template = "project-page.html"
+template = "post.html"
 +++
 
 {% aside(path="/images/me.jpg", caption='') %}
-I'm a senior studying Computer Science at North Carolina State University.
+I'm a senior studying Computer Science at North Carolina State University. I have a wide range of software development experience from personal and school projects, internships, and four years of the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in high school.
 
-<!-- todo, populate more of this! -->
+I'm particularly interested in front-end development and design, with a goal of creating systems that are enjoyable for people to use, especially on the web. I also have experience with back-end, cloud, and systems programming, and am always looking to expand my skill set even further.
+
+I'm also a big fan of Linux and open-source software. I started using Linux on the desktop on-and-off in 2018, and I made the switch to using it full-time in 2021. I also became a regular member of NC State's [Linux Users' Group](https://lug.ncsu.edu/) around that time.
 
 {% end %}
 
@@ -27,4 +29,4 @@ I was also part of the drive team for the 2019 and 2020 seasons, which meant tha
 During my time as a student, I helped design, build, and program 4 robots: Bracket Buster (2017), Dropkick (2018), Backfire (2019), and [Overthrow](@/projects/overthrow.md) (2020). I also worked on various web projects such as [Ossus](@/projects/ossus.md), a web app for scouting and data analysis. I'm still involved with the team as a mentor today, where I help with programming and project management. Overall, FRC consumed much of my time in high school and most definitely played a large role in shaping who I am today.
 
 ## About this Site
-Most of this site's content (including this page!) is written in Markdown. At build-time, pages are converted to HTML using [Zola](https://www.getzola.org/), a static site generator written in Rust. The HTML templates Zola consumes are written by yours truly and are styled using [Tailwind CSS](https://tailwindcss.com/). The font used is Cantarell, which is licensed under the [SIL Open Font License](https://gitlab.gnome.org/GNOME/cantarell-fonts/-/blob/master/COPYING). As new content is pushed, the site is automatically rebuilt/redeployed by GitHub Actions. The source code is available in [this repository](https://github.com/trevnels/trevnels.github.io), though keep in mind that some parts of it are still a work in progress and/or messy.
+Most of this site's content (including this page!) is written in Markdown. At build-time, pages are converted to HTML using [Zola](https://www.getzola.org/), a static site generator written in Rust. The HTML templates Zola consumes are written by yours truly and are styled using [Tailwind CSS](https://tailwindcss.com/). The font used is [Cantarell](https://gitlab.gnome.org/GNOME/cantarell-fonts/), which is licensed under the SIL Open Font License. As new content is pushed, the site is automatically rebuilt/redeployed by GitHub Actions. The source code is available in [this repository](https://github.com/trevnels/trevnels.github.io), though keep in mind that some parts of it are still a work in progress and/or messy.

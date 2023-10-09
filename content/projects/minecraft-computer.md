@@ -2,8 +2,11 @@
 title = "Minecraft Computer"
 date = 2019-07-16
 description = "A Turing-complete 8-bit computer built in the game <em>Minecraft</em>."
+[taxonomies]
+tags = ["asm", "hardware"]
 [extra]
 thumbnail = "/images/computer.png"
+featured = true
 +++
 
 {% figure(img=true, caption='The fully built computer, pictured computing the Fibonacci sequence (if you look closely, the display reads 233.)') %}

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{# {% import "macros.html" as macros %} #}
 {% block meta_content %}
 <title>{{page.title}} &ndash; Trevor Nelson</title>
 {% endblock meta_content %}
@@ -22,8 +22,7 @@
   <div class="select-none flex flex-wrap justify-center gap-1 group">
     {% if page.taxonomies is containing('tags') %}
     {% for tag in page.taxonomies['tags'] %}
-    <div
-      class="inline-block bg-gray-500 hover:bg-gray-400 transition-colors text-white py-0 px-2 leading-normal select-none">
+    <div class="inline-block bg-gray-600 rounded text-white py-0 px-2 leading-normal select-none">
       {{ tag }}</div>
 
     {% endfor %}

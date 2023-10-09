@@ -1,12 +1,19 @@
 {% extends "base.html" %}
 {% import "macros.html" as macros %}
 
+{% block meta_content %}
+<title>{{section.title}} &ndash; Trevor Nelson</title>
+{% endblock meta_content %}
 {% block content %}
 <div class="prose prose-gray dark:prose-invert prose-lg mx-auto max-w-prose">
   <h1 class="text-center">
     {{ section.title }}
   </h1>
   {{ section.content | safe }}
+
+  {% if section.pages | length == 0 %}
+  <p class="text-center">There's currently nothing here, please check back later.</p>
+  {% endif %}
 
   {% for year, posts in section.pages | group_by(attribute="year") %}
   {{ macros::pagelist(posts=posts, title=year) }}
