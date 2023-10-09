@@ -48,6 +48,13 @@
 </a>
 {% endmacro post %}
 
-{% macro item(path, name) %}
-<a href="{{config.base_url}}{{path}}" class="{% if path == current_path %}active{% endif %}"><span>{{name}}</span></a>
-{% endmacro item %}
+{% macro navitem(path, name) %}
+<a href="{{config.base_url}}{{path}}" class="{% if path == current_path %}active{% endif %}{% if path=='/'
+%} flex-none{% endif %}"><span {% if path=='/' %}class="hidden sm:inline" {% endif %}>{{name}}</span>
+    {% if path == '/' %}<i class="nf nf-md-home inline-block -translate-y-[1px] sm:hidden"></i>{% endif %}</a>
+{% endmacro navitem %}
+
+{% macro socialicon(url, icon, label) %}
+<a href="{{url}}" target="_blank" aria-label="{{label}}"><i
+        class="nf {{icon}} text-gray-700 dark:text-gray-300 opacity-50 hover:opacity-75 transition-opacity p-1"></i></a>
+{% endmacro socialicon %}

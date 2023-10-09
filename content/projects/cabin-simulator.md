@@ -1,7 +1,7 @@
 +++
 title = "Cabin Simulator"
 date = 2018-07-16
-description = "A multiplayer sandbox game made in Unity."
+description = "A multiplayer sandbox game made with Unity."
 [taxonomies]
 tags = ["gamedev"]
 [extra]
@@ -9,7 +9,7 @@ thumbnail = "/images/trucks.png"
 featured = true
 +++
 
-Cabin Simulator is a multiplayer sandbox building game I made in the Unity game engine. The core gameplay loop is very simple - cut down trees to get wood, build something out of it, and repeat. 
+Cabin Simulator is a multiplayer sandbox building game I made with the Unity game engine. The core gameplay loop is very simple - cut down trees to get wood, build something out of it, and repeat. 
 
 {% aside(path="/images/world.png", caption="Looking at another player while testing multiplayer functionality.") %}
 The multiplayer aspect also led to some interesting emergent social gameplay, since the game also featured weapons and vehicles -- my friends and I would often play 'factions,' where two teams would each build a base and try to sneak into the other team's without being noticed. While the game was never released, I learned a lot about game development in the process of creating it, especially in the area of networked multiplayer.

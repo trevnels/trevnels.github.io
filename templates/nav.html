@@ -1,11 +1,8 @@
-<nav class="text-center m-auto mt-6 select-none">
-    {{ macros::item(path="/", name="Home") }}
-    {{ macros::item(path="/about/", name="About") }}
-    {{ macros::item(path="/projects/", name="Projects") }}
-    {# {{ macros::item(path="/blog/", name="Blog") }} #}
-    {{ macros::item(path="/resume/", name="Résumé") }}
-    <a href="https://github.com/trevnels/" target="_blank"><i
-            class="nf nf-md-github align-baseline -translate-y-[2px] inline-block"></i></a>
-    <a href="https://www.linkedin.com/in/trevor-nelson-a730411a0/" target="_blank"><i
-            class="nf nf-md-linkedin align-baseline -translate-y-[2px] inline-block"></i></a>
+<nav
+    class="py-4 px-4 select-none flex flex-wrap justify-center gap-1 sticky left-0 top-0 w-full bg-gray-50 dark:bg-gray-800 z-10">
+    {{ macros::navitem(path="/", name="Home") }}
+    {{ macros::navitem(path="/about/", name="About") }}
+    {{ macros::navitem(path="/projects/", name="Projects") }}
+    {# {{ macros::navitem(path="/blog/", name="Blog") }} #}
+    {{ macros::navitem(path="/resume/", name="Résumé") }}
 </nav>
