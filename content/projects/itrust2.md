@@ -14,7 +14,8 @@ iTrust2 is a mock healthcare portal developed as part of NCSU's Software Enginee
 
 The specific functionality we worked on was adding the role of 'Patient Advocate', which can be associated with patients by an administrator in a many-to-many fashion. Once associated, advocates can view certain information about their patients, such as office visit records, billing statements, and prescriptions. Permission to view each category of information can be granted or revoked by patients and administrators. 
 
-![iTrust2 Patient Advocate screen](/images/itrust.png)
-*Patient Advocate Screen from the Admin POV*
+{% figure(img=true, caption="Patient Advocate Screen from the Admin POV.") %}
+/images/itrust.png
+{% end %}
 
 Although the many-to-many linking between users took some time to get working, we learned a lot about relational databases in the process and ended up with a working implementation in the end. I also set out to get some extra credit points by configuring the application to run inside a Docker container, which allowed us to spin up test servers very easily on our laptops without much manual configuration.

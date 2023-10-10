@@ -25,7 +25,7 @@ After Qualification matches, the top 8 qualification-ranked teams become playoff
 
 Not so fast. Basing one's choices on win/loss ratio doesn't really show the full picture of the teams at the event due to the randomness of qualification matches. For example, a bad team may luck out and be paired with good teams every single qualification match, artificially inflating their qualification rank. They may enter alliance selection with a high rank, but they may not be the best choice. This is where scouting comes in.
 
-During the qualification matches, most teams will have scouts in the stands recording both quantitative and qualitative data on each and every team that plays. This data is not only critical for making informed alliance selection picks, but also for making predictions about our future matches and analyzing our opponents' weaknesses.
+During the qualification matches, most teams will have scouts in the stands recording both quantitative and qualitative data on all teams at the event. This data is not only critical for making informed alliance selection picks, but also for making predictions about our future matches and analyzing our opponents' weaknesses.
 
 Recording all that data and crunching the numbers can get very tedious for the scouts, and even somewhat tedious for an Excel sheet. Therefore, I've spent a lot of time during my FRC career trying to improve scouting, both in terms of accessibility to the scouts and in accuracy and usefulness of data flowing out of the system.
 
