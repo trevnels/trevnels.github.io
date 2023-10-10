@@ -69,5 +69,9 @@ nav a {
 }
 
 nav a.active {
-    @apply bg-gray-700 dark:bg-gray-300 text-gray-50 dark:text-gray-800
+    @apply bg-gray-700 dark:bg-gray-300 text-gray-50 dark:text-gray-800;
+}
+
+nav a.nested-active:not(.active) {
+    @apply bg-gray-200 dark:bg-gray-700;
 }

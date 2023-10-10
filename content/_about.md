@@ -6,9 +6,7 @@ template = "post.html"
 {% aside(path="/images/me.jpg", caption='') %}
 Hi, I'm Trevor! I'm a senior studying Computer Science at North Carolina State University. I have a wide range of software development experience from personal and school projects, internships, and four years of the [FIRST Robotics Competition](https://www.firstinspires.org/robotics/frc) in high school.
 
-I'm particularly interested in front-end development and design, with a goal of creating systems that are enjoyable for people to use, especially on the web. I also have experience with back-end, cloud, and systems programming, and am always looking to expand my skill set even further.
-
-I'm also a big fan of Linux and open-source software. I started using Linux on the desktop on-and-off in 2018, and I made the switch to using it full-time in 2021. I also became a regular member of NC State's [Linux Users' Group](https://lug.ncsu.edu/) around that time.
+I'm particularly interested in front-end development and design, with a goal of creating systems that are enjoyable for people to use, especially on the web. I'm also a big fan of Linux and open-source software. I started using Linux on the desktop on-and-off in 2018, and I made the switch to using it full-time in 2021. I also became a regular member of NC State's [Linux Users' Group](https://lug.ncsu.edu/) around that time.
 
 {% end %}
 

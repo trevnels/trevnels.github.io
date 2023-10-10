@@ -49,8 +49,9 @@
 {% endmacro post %}
 
 {% macro navitem(path, name) %}
-<a href="{{config.base_url}}{{path}}" class="{% if path == current_path %}active{% endif %}{% if path=='/'
-%} flex-none{% endif %}"><span {% if path=='/' %}class="hidden sm:inline" {% endif %}>{{name}}</span>
+<a href="{{ get_url(path=path) | safe }}"
+    class="{% if current_path == path %}active{% endif %} {% if current_path is starting_with(path) and path != '/' %}nested-active{% endif %} {% if path=='/' %}flex-none{% endif %}"><span
+        {% if path=='/' %}class="hidden sm:inline" {% endif %}>{{name}}</span>
     {% if path == '/' %}<i class="nf nf-md-home inline-block -translate-y-[1px] sm:hidden"></i>{% endif %}</a>
 {% endmacro navitem %}
 
