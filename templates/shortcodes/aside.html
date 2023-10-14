@@ -4,8 +4,11 @@
     </div>
     <aside class="flex-none sm:w-5/12">
         <figure class="my-0">
-            {% set image = resize_image(path=path, width=800, op="fit_width") %}
-            <img src="{{image.url}}" alt="{{caption}}" draggable="false" />
+            {% if path is not ending_with(".gif") %}
+            {# optimize non-gif images #}
+            {% set path = (resize_image(path=path, width=800, op="fit_width")) | get(key="url") %}
+            {% endif %}
+            <img src="{{path}}" alt="{{caption}}" draggable="false" />
             {% if caption %}
             <figcaption class="text-center mt-2 italic">{{ caption }}</figcaption>
             {% endif %}
