@@ -73,5 +73,5 @@ nav a.active {
 }
 
 nav a.nested-active:not(.active) {
-    @apply bg-gray-200 dark:bg-gray-700;
+    @apply bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600;
 }
