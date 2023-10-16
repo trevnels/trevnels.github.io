@@ -51,7 +51,7 @@ iframe {
 }
 
 .prose a:not(.not-prose) {
-    @apply text-blue-200;
+    @apply text-blue-500 dark:text-blue-200;
 }
 
 h1,
@@ -65,7 +65,7 @@ h6 {
 
 nav a {
     font-weight: 600;
-    @apply inline-block rounded-md px-3 py-1 text-lg hover:bg-gray-300 dark:hover:bg-gray-700 select-none transition-colors flex-auto sm:flex-none text-center;
+    @apply inline-block rounded-md px-3 py-1 text-lg bg-transparent hover:bg-gray-300 dark:hover:bg-gray-700 select-none transition-colors flex-auto sm:flex-none text-center;
 }
 
 nav a.active {
