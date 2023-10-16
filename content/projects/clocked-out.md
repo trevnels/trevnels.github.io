@@ -12,7 +12,7 @@ thumbnail = "/images/clocked-out.jpg"
 /images/clocked-out.jpg
 {% end %}
 
-Clocked Out is a top-down puzzle game developed for CSC281's final project. In Clocked Out, you play as a man who wakes up in an empty yet familiar office building. The player must solve various puzzles to find objects to upgrade a tool they hold throughout the game. As the player upgrades their tool, more areas of the building become available to explore, until they are able to escape. The game was made in Godot with a team of 2 other people for a class project. I was responsible for much of the programming, along with the sound design. We drew heavy inspiration from the "liminal spaces" aesthetic, while also adopting a top-down pixel art style. 
+Clocked Out is a top-down puzzle game developed for my Foundations of Interactive Game Design final project at NC State. In Clocked Out, the player wakes up in an empty yet familiar office building, and they must solve various puzzles to find items around the building. These items can be used to upgrade a tool held by the player, which is used to open up more areas of the building as the player progresses. The player is eventually able to restore power to the building and escape through an elevator. The game was made in the Godot engine with a team of 2 other people. I was responsible for much of the programming, along with the sound design. In terms of art, we drew heavy inspiration from the "liminal space" aesthetic, while also adopting a top-down pixel art style, since it was the most feasible for our small team with limited art experience.
 
 {% figure(caption="A montage of progression through the first level of the game.") %}
 ![A montage of progression through the first level of the game.](/videos/crafting_montage.gif)

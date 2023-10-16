@@ -1,6 +1,6 @@
 +++
 title = "Ossus"
-date = 2019-05-16
+date = 2019-08-16
 description = "FIRST Robotics Competition scouting platform."
 [taxonomies]
 tags = ["vue", "js", "robotics"]
@@ -86,7 +86,7 @@ I tried to abstract all the historical FRC game pieces into a handful of "types"
 /images/ossus_collection.png
 {% end %}
 
-Data is collected with a touch-optimized interface designed for the scout iPads. Scouts simply tap what their assigned robot does, and the screen will update with new options. For instance, pressing endgame would switch to buttons of different possible endgame states. All of these buttons are created based on the provided schema - nothing is hard-coded. Effectively, the data collection interface is a finite state machine of all states a robot could be in, and transitions between these states are triggered by buttons and counted behind the scenes. This data is sent to the server and recorded in MongoDB once the scout hits submit and adds any qualitative notes.
+Data is collected with a touch-optimized interface designed for the scout iPads. Scouts simply tap what their assigned robot does, and the screen will update with new options. For instance, pressing endgame would switch to buttons of different possible endgame states. All of these buttons are created based on the provided schema -- nothing is hard-coded. Effectively, the data collection interface is a finite state machine of all states a robot could be in, and transitions between these states are triggered by buttons and counted behind the scenes. This data is sent to the server and recorded in MongoDB once the scout hits submit and adds any qualitative notes.
 
 The design of this interface was primarily driven by complaints from scouts about our previous data entry method. Before 2020, we used a Google Form feeding a complex spreadsheet for scouting data. This worked, but the Google Form did not facilitate sequential data entry the same way the Ossus data collection interface does. Having to scroll up and down in a form and manually incrementing values in text boxes quickly wore out our scouts.
 

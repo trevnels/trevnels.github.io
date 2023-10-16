@@ -16,9 +16,9 @@ thumbnail = "/images/sidewinder.jpg"
 ## Overview
 Sidewinder is an antweight combat robot I built with a team of two other students for BattleBots @ NC State 2021.
 
-Sidewinder's primary weapon is a horizontal spinner machined from titanium, which is directly driven by an outrunner brushless motor. This weapon is designed to spin very quickly and deliver a lot of energy to opponents - the titanium plate accounts for a significant portion of the robot's weight. 
+Sidewinder's primary weapon is a horizontal spinner machined from titanium, which is directly driven by an outrunner brushless motor. This weapon is designed to spin very quickly and deliver a lot of energy to opponents -- the titanium plate accounts for a significant portion of the robot's weight. 
 
-Sidewinder's chassis consists of 3D-printed carbon-fiber-infused nylon filament sandwiched between two carbon fiber plates. We also designed a 3D-printed rear wedge and two wheel guards to mount to the core chassis. Because these parts were most likely to take a hit, we designed them to be easily replaceable. The chassis was also designed to be vertically symmetric, so its wheels protrude from the top and bottom -- this ensures that if the robot is flipped, it can continue driving as usual. The interior of the chassis houses a standard RC control system, LiPo battery, and ESCs for each of its three motors.
+Most of Sidewinder's chassis was 3D-printed with carbon-fiber-infused nylon filament. This is sandwiched between two carbon fiber plates, which protect the robot's top and bottom. We also designed a 3D-printed rear wedge and two wheel guards to mount to the core chassis. Because these parts were most likely to take a hit, we designed them to be easily replaceable. The chassis was also designed to be vertically symmetric, so its wheels protrude from the top and bottom -- this ensures that if the robot is flipped, it can continue driving as usual. The interior of the chassis houses a standard RC control system, LiPo battery, and ESCs for each of the robot's three motors.
 
 ## Design Process
 Our team used Onshape to design Sidewinder digitally before manufacture. I focused on the core chassis, while my teammates focused on the weapon and its hub.
@@ -27,7 +27,7 @@ Our team used Onshape to design Sidewinder digitally before manufacture. I focus
 /images/sidewinder-cad.png
 {% end %}
 
-We also took extra care to configure the materials and densities of each part, allowing us to know where we stood in terms of weight during the design process. Because the weight limit for antweight robots is only 1 pound, we were a little nervous given our use of titanium and aluminum. The Onshape estimate was right at the limit, but once assembled, the robot thankfully turned out to be a few grams below the estimate.
+We also took extra care to configure the materials and densities of each part, allowing us to know where we stood in terms of weight during the design process. Because the weight limit for antweight robots is only 1 pound, we were a little nervous given our use of titanium and aluminum. While the Onshape estimate was right at the limit, the robot thankfully turned out to be a few grams underweight once assembled.
 
 ## Manufacturing
 {% aside(path="/videos/sidewinder-drive.gif", caption="Initial testing of Sidewinder's drivetrain.") %}
@@ -42,6 +42,6 @@ Sidewinder's final assembly took place in the D.H. Hill Library Makerspace and a
 ![Sidewinder swiftly dispatches its first opponent.](/videos/sidewinder-arena.gif)
 {% end %}
 
-I was offered the opportunity to drive Sidewinder in the competition, which was very nerve-wracking, given I had never driven a combat robot before. Thankfully, the excellent design of our robot made it very easy to drive, even as the robot got flipped over on multiple occasions. We also took a few hits which barely damaged the robot. 
+I was offered the opportunity to drive Sidewinder in the competition, which was very nerve-wracking, given I had never driven a combat robot before. Thankfully, it was very easy to drive, even as the robot got flipped over on multiple occasions. We also took a few hits, though none dealt any significant damage to our robot thanks to its sturdy construction.
 
 We ended up winning the first two of our matches in the bracket, which was enough to secure us a spot in the finals. After a particularly precarious final match in which both robots seemed to be on the verge of death, we were able to win the final match and secure the win for Sidewinder.
