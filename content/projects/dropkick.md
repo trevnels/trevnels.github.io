@@ -1,7 +1,7 @@
 +++
 title = "Dropkick"
 date = 2018-03-16
-description = "Robot for the 2018 FIRST Robotics Competition season"
+description = "Robot for the 2018 FIRST Robotics Competition season."
 [taxonomies]
 tags = ["robotics", "jvm"]
 [extra]
