@@ -42,10 +42,22 @@
             "label": "convert-resume",
             "type": "shell",
             "options": {
-                "shell": {"args": ["-i"]}
+                "shell": {
+                    "args": [
+                        "-i"
+                    ]
+                }
             },
-            "command": "cd /var/home/tn/Documents/resume; nix-shell --run \"make output/resume-redacted-transparent.png\"; cp output/resume-redacted-transparent.png ${cwd}/static/images/resume.png",
+            "command": "cd /var/home/tn/Documents/resume; nix-shell --run \"make output/resume-redacted.svg\"; cp output/resume-redacted.svg ${cwd}/static/images/resume.svg",
             "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "build",
+            "group": "build",
+            "problemMatcher": [],
+            "label": "npm: build",
+            "detail": "zola build && tailwindcss -i styles/styles.css -o public/main.css --minify"
         }
     ]
 }
