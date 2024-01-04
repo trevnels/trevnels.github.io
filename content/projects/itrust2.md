@@ -10,7 +10,7 @@ thumbnail = "/images/itrust.png"
 
 
 
-iTrust2 is a mock healthcare portal developed as part of NCSU's Software Engineering course, done in a team of 6 students. We were provided a functioning application at the start of the project, and were tasked with adding new features to fulfill the given requirements while following Agile practices. The tech stack consisted of Java with Spring and Hibernate on the backend, AngularJS and Bootstrap on the frontend, and MySQL for the database.
+iTrust2 is a mock healthcare portal developed as part of NCSU's Software Engineering course. As a team of 6 students, we were provided a functioning application at the start of the semester and were tasked with adding new features to fulfill the given requirements, all while following Agile practices. The tech stack consisted of Java with Spring and Hibernate on the backend, AngularJS and Bootstrap on the frontend, and MySQL for the database.
 
 The specific functionality we worked on was adding the role of 'Patient Advocate', which can be associated with patients by an administrator in a many-to-many fashion. Once associated, advocates can view certain information about their patients, such as office visit records, billing statements, and prescriptions. Permission to view each category of information can be granted or revoked by patients and administrators. 
 

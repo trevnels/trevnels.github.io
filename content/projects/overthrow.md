@@ -23,7 +23,7 @@ Notably, our turret could automatically aim at the goal using computer vision, e
 <img src="/videos/overthrow_turn.gif" draggable="false"/>
 {% end %}
 
-Computer vision also informed the shooter's hood angle and flywheel speed, so all the driver had to do to score points was pull the trigger. I also implemented many checks which must pass before allowing the shooter to fire. For example, the robot will not fire if the turret is aimed away from the goal, if the flywheel is not at the correct speed, or if the robot is too far away for shots to reliably hit their target. This status information is both indicated by LEDs on the robot and indicators on the dashboard to ensure the drivers are aware of any problems that may arise.
+Computer vision also controlled the hood angle and flywheel speed of the shooter, so all the driver had to do to score points was pull the trigger. I also implemented many checks which must pass before allowing the shooter to fire. For example, the robot will not fire if the turret is aimed away from the goal, if the flywheel is not at the correct speed, or if the robot is too far away for shots to reliably hit their target. This status information is both indicated by LEDs on the robot and indicators on the dashboard to ensure the drivers are aware of any problems that may arise.
 
 Having such seamless automation on our turret also let us have one of the best 15-second autonomous routines in the state. We could fire three balls, back up to pick up three more, and return to the goal to fire again, for a total of six:
 
